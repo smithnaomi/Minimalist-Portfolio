@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      Hello
+      NCS
       <Header></Header>
       <Navigation></Navigation>
-      <Projects></Projects>
+      {/* <Projects></Projects> */}
       <Footer></Footer>
     </div>
   );
